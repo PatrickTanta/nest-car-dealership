@@ -1,3 +1,6 @@
 {
-  "nuxt.isNuxtApp": false
+  "cSpell.enableFiletypes": [
+    "!typescript"
+  ],
+  "prettier.bracketSpacing": true
 }
