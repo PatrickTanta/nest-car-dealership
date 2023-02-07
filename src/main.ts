@@ -7,7 +7,8 @@ async function main() {
 
     app.useGlobalPipes(
         new ValidationPipe({
-            whitelist: true // removes garbage data from the request body
+            whitelist: true, // removes garbage data from the request body
+            forbidNonWhitelisted: true // throws an error if the request body contains garbage data
         })
     )
 
